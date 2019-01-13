@@ -30,3 +30,5 @@ RUN pip install mbed-cli
 RUN git clone https://github.com/stevenkay1/microdrone_llc.git
 
 WORKDIR /microdrone_llc
+
+RUN git pull
